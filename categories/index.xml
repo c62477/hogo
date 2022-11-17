@@ -2,9 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 就是玩儿</title>
+<<<<<<< HEAD
     <link>https://hugo-6cd.pages.dev/categories/</link>
     <description>Recent content in Categories on 就是玩儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language><atom:link href="https://hugo-6cd.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <link>https://locallive.top/categories/</link>
+    <description>Recent content in Categories on 就是玩儿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language><atom:link href="https://locallive.top/categories/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> a63cc37db1337043f20e89009e54b2460aae6ead
   </channel>
 </rss>

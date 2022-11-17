@@ -16,6 +16,7 @@ scClear.style = 'opacity: 0;'
 
 function search() {
     let post = '';
+<<<<<<< HEAD
     let scInput = document.querySelector('#sc-input');
     let scVal = scInput.value.trim().toLowerCase();
     let scResPostsCounts = 0, // 搜索结果所在页面数
@@ -23,6 +24,15 @@ function search() {
     console.log(data)
 
     let map = JSON.parse(data);
+=======
+    scVal = scInput.value.trim().toLowerCase();
+    // console.log(scVal);
+    // if (scVal.length === 1) return;
+    let scResPostsCounts = 0, // 搜索结果所在页面数
+        scResScValCounts = 0; // 搜索词出现的总次数
+
+        
+>>>>>>> a63cc37db1337043f20e89009e54b2460aae6ead
     map.forEach(item => {
         if (!scVal) return;
         if (item.content.indexOf(scVal) > -1 || item.title.indexOf(scVal) > -1) {
